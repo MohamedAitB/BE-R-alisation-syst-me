@@ -1,0 +1,7 @@
+LCD.c:17:6:lcd_init	48	static
+LCD.c:90:6:clearlcd	8	static
+LCD.c:98:6:lcd_write	32	static
+LCD.c:105:6:lcd_print	40	static
+LCD.c:119:6:lcd_position	32	static
+LCD.c:137:6:reglagecouleur	40	static
+LCD.c:157:6:variable_Transmit	24	static
