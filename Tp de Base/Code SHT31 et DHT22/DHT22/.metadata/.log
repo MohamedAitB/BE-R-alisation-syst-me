@@ -1,0 +1,174 @@
+!SESSION 2022-02-10 08:15:41.372 -----------------------------------------------
+eclipse.buildId=Version 1.8.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  C:\Users\kissi\Desktop\dht22\.cproject
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\kissi\Desktop\dht22\.cproject
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-02-10 08:15:59.221
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-02-10 08:15:59.285
+!MESSAGE Log4j initialized with config file C:\Users\kissi\Desktop\TestBE\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-02-10 08:16:07.218
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-02-10 08:16:17.077
+!MESSAGE Indexed 'dht22' (32 sources, 115 headers) in 5,49 sec: 11 306 declarations; 65 143 references; 7 unresolved inclusions; 394 syntax errors; 1 874 unresolved names (2,4 %)
+!SESSION 2022-02-12 16:36:46.393 -----------------------------------------------
+eclipse.buildId=Version 1.8.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  C:\Users\kissi\Desktop\dht22\.cproject
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\kissi\Desktop\dht22\.cproject
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-02-12 16:37:13.272
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-02-12 16:37:13.372
+!MESSAGE Log4j initialized with config file C:\Users\kissi\Desktop\dht22\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-02-12 16:37:29.186
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-12 16:37:49.837
+!MESSAGE Internal error while trying to serialize language settings
+!STACK 0
+java.lang.IllegalArgumentException: Attempted to beginRule: F/dht22/.metadata/.plugins/org.eclipse.cdt.core, does not match outer scope rule: F/dht22/.settings
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:66)
+	at org.eclipse.core.internal.jobs.ThreadJob.illegalPush(ThreadJob.java:137)
+	at org.eclipse.core.internal.jobs.ThreadJob.push(ThreadJob.java:392)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:88)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:299)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:124)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2242)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1554)
+	at org.eclipse.core.internal.resources.File.refreshLocal(File.java:314)
+	at org.eclipse.cdt.core.resources.ResourcesUtil.refreshWorkspaceFiles(ResourcesUtil.java:43)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXmlInternal(XmlUtil.java:327)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:294)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:919)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$2.run(LanguageSettingsProvidersSerializer.java:953)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-12 16:37:49.890
+!MESSAGE Internal error running job of serializing language settings for project dht22
+!STACK 1
+org.eclipse.core.runtime.CoreException: Internal error while trying to serialize language settings
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:935)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$2.run(LanguageSettingsProvidersSerializer.java:953)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.IllegalArgumentException: Attempted to beginRule: F/dht22/.metadata/.plugins/org.eclipse.cdt.core, does not match outer scope rule: F/dht22/.settings
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:66)
+	at org.eclipse.core.internal.jobs.ThreadJob.illegalPush(ThreadJob.java:137)
+	at org.eclipse.core.internal.jobs.ThreadJob.push(ThreadJob.java:392)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:88)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:299)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:124)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2242)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1554)
+	at org.eclipse.core.internal.resources.File.refreshLocal(File.java:314)
+	at org.eclipse.cdt.core.resources.ResourcesUtil.refreshWorkspaceFiles(ResourcesUtil.java:43)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXmlInternal(XmlUtil.java:327)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:294)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:919)
+	... 2 more
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2022-02-12 16:37:49.890
+!MESSAGE Internal error while trying to serialize language settings
+!STACK 0
+java.lang.IllegalArgumentException: Attempted to beginRule: F/dht22/.metadata/.plugins/org.eclipse.cdt.core, does not match outer scope rule: F/dht22/.settings
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:66)
+	at org.eclipse.core.internal.jobs.ThreadJob.illegalPush(ThreadJob.java:137)
+	at org.eclipse.core.internal.jobs.ThreadJob.push(ThreadJob.java:392)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:88)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:299)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:124)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2242)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1554)
+	at org.eclipse.core.internal.resources.File.refreshLocal(File.java:314)
+	at org.eclipse.cdt.core.resources.ResourcesUtil.refreshWorkspaceFiles(ResourcesUtil.java:43)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXmlInternal(XmlUtil.java:327)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:294)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:919)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$2.run(LanguageSettingsProvidersSerializer.java:953)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-12 16:38:02.689
+!MESSAGE Internal error while trying to serialize language settings
+!STACK 0
+java.lang.IllegalArgumentException: Attempted to beginRule: F/dht22/.metadata/.plugins/org.eclipse.cdt.core, does not match outer scope rule: F/dht22/.settings
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:66)
+	at org.eclipse.core.internal.jobs.ThreadJob.illegalPush(ThreadJob.java:137)
+	at org.eclipse.core.internal.jobs.ThreadJob.push(ThreadJob.java:392)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:88)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:299)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:124)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2242)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1554)
+	at org.eclipse.core.internal.resources.File.refreshLocal(File.java:314)
+	at org.eclipse.cdt.core.resources.ResourcesUtil.refreshWorkspaceFiles(ResourcesUtil.java:43)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXmlInternal(XmlUtil.java:327)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:294)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:919)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$2.run(LanguageSettingsProvidersSerializer.java:953)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-02-12 16:38:02.689
+!MESSAGE Internal error running job of serializing language settings for project dht22
+!STACK 1
+org.eclipse.core.runtime.CoreException: Internal error while trying to serialize language settings
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:935)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$2.run(LanguageSettingsProvidersSerializer.java:953)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.IllegalArgumentException: Attempted to beginRule: F/dht22/.metadata/.plugins/org.eclipse.cdt.core, does not match outer scope rule: F/dht22/.settings
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:66)
+	at org.eclipse.core.internal.jobs.ThreadJob.illegalPush(ThreadJob.java:137)
+	at org.eclipse.core.internal.jobs.ThreadJob.push(ThreadJob.java:392)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:88)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:299)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:124)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2242)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1554)
+	at org.eclipse.core.internal.resources.File.refreshLocal(File.java:314)
+	at org.eclipse.cdt.core.resources.ResourcesUtil.refreshWorkspaceFiles(ResourcesUtil.java:43)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXmlInternal(XmlUtil.java:327)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:294)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:919)
+	... 2 more
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2022-02-12 16:38:02.693
+!MESSAGE Internal error while trying to serialize language settings
+!STACK 0
+java.lang.IllegalArgumentException: Attempted to beginRule: F/dht22/.metadata/.plugins/org.eclipse.cdt.core, does not match outer scope rule: F/dht22/.settings
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:66)
+	at org.eclipse.core.internal.jobs.ThreadJob.illegalPush(ThreadJob.java:137)
+	at org.eclipse.core.internal.jobs.ThreadJob.push(ThreadJob.java:392)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:88)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:299)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:124)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2242)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1554)
+	at org.eclipse.core.internal.resources.File.refreshLocal(File.java:314)
+	at org.eclipse.cdt.core.resources.ResourcesUtil.refreshWorkspaceFiles(ResourcesUtil.java:43)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXmlInternal(XmlUtil.java:327)
+	at org.eclipse.cdt.internal.core.XmlUtil.serializeXml(XmlUtil.java:294)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.serializeLanguageSettings(LanguageSettingsProvidersSerializer.java:919)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$2.run(LanguageSettingsProvidersSerializer.java:953)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2022-03-03 16:16:02.223 -----------------------------------------------
+eclipse.buildId=Version 1.8.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-03-03 16:16:59.228
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-03-03 16:16:59.396
+!MESSAGE Log4j initialized with config file C:\Users\kissi\Desktop\dht22\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-03-03 16:17:18.106
+!MESSAGE Started RMI Server, listening on port 41337
